@@ -15,12 +15,12 @@ De los libros se sabe:
 
 #### 1. Modelar los libros conocidos, y permitir conocer su valoración.
 
-#### 2. Modelar un lector, que conoce los libros que leyó.
+#### 2. Modelar a Martu, que conoce los libros que leyó.
 
-#### 3. Hacer que un lector se olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
+#### 3. Hacer que olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
 
-#### 4. Hacer que un lector obtenga el promedio de valoración de los libros leídos.
+#### 4. Obtener el promedio de valoración de los libros que leyó.
 
-#### 5. Hacer que un lector obtenga el mejor y peor libro que leyó.
+#### 5. Obtener el peór libro que leyó.
 
-#### 6. Hacer que un lector obtenga algún libro cuyo nombre empiece con "El".
+#### 6. Obtener algún libro leído por Martu que empiece con "El".
