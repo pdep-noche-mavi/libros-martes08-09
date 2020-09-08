@@ -1,6 +1,6 @@
 ## Libros!
 
-Les docentes (Nati, Brian, Andy, Alf, Paul, Nati y Martu) estuvimos leyendo mucho durante la cuarentena. Decidimos hacer una aplicación (obviamente en Wollok) para poder llevar registro de los libros leídos con sus propiedades. Como no pudimos salir a comprar, tenemos una cantidad de libros reducidos y nos los vamos prestando (nos mandamos mensajes de objetos!). De los libros se quiere saber su valoración, y cada uno conoce su forma de calcularlo.
+Les docentes (Brian, Andy, Alf, Paul, Nati y Martu) estuvimos leyendo mucho durante la cuarentena. Decidimos hacer una aplicación (obviamente en Wollok) para poder llevar registro de los libros leídos con sus propiedades. Como no pudimos salir a comprar, tenemos una cantidad de libros reducidos y nos los vamos prestando (nos mandamos mensajes de objetos!). De los libros se quiere saber su valoración, y cada uno conoce su forma de calcularlo.
 De los libros se sabe:
 * Harry Potter - El Misterio del Príncipe Mestizo: se conoce la cantidad de lectores que es _10500156_. Su valoración se calcula como sus lectores dividido _1000000_.
 * El Señor de los anillos - Las dos Torres: se conoce la cantidad de páginas _450_. Su valoración se calcula como su cantidad de páginas dividido _45_.
