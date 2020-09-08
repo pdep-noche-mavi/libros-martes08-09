@@ -21,6 +21,6 @@ De los libros se sabe:
 
 #### 4. Obtener el promedio de valoración de los libros que leyó.
 
-#### 5. Obtener el peór libro que leyó.
+#### 5. Obtener el nombre del peor y mejor libro que leyó.
 
-#### 6. Obtener algún libro leído por Martu que empiece con "El".
+#### 6. Obtener el nombre de algún libro leído por Martu que empiece con "El".
