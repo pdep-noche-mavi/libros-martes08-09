@@ -15,7 +15,7 @@ De los libros se sabe:
 
 #### 1. Modelar los libros conocidos, y permitir conocer su valoración.
 
-#### 2. Modelar a Martu, que conoce los libros que leyó.
+#### 2. Modelar a Nati, que conoce los libros que leyó.
 
 #### 3. Hacer que Nati olvide un libro.
 
