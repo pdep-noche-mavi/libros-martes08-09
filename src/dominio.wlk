@@ -1,6 +1,39 @@
+object nati{
+	
+	const biblioteca = [] //un set
+	
+	method leerUnLibro(unLibro){
+		biblioteca.add(unLibro)
+	}
+	
+	method cuantosLeiste(){
+		return biblioteca.size()
+	}
+	
+	method ultimoLeido(){
+		return biblioteca.last().nombre()
+	}
+	
+	method primerLeido(){
+		return biblioteca.first().nombre()
+	}
+	
+	method leeVariado(){
+		return biblioteca.asSet().size() > 3
+	}
+	
+	//valoracion >=10
+	method librosRecomendados(){
+		const bloque = {unLibro => unLibro.valoracion()>=10}
+		return biblioteca.filter(bloque)
+	}
+	
+	
+}
+
 object harryPotter{
 	var property nombre="Harry Potter - El Misterio del Principe Mestizo"
-	var property cantidadLectores=10500156
+	const cantidadLectores=10500156
 	
 	method valoracion(){
 		return cantidadLectores/1000000
@@ -9,7 +42,7 @@ object harryPotter{
 
 object seniorDeLosAnillos{
 	var property nombre="El Señor de los Anillos - Las dos Torres"
-	var property cantidadPaginas=450
+	const cantidadPaginas=450
 	
 	method valoracion(){
 		return cantidadPaginas/45
@@ -28,8 +61,8 @@ object elPrincipito {
 
 object losJuegosDelHambre {
 	var property nombre="Los Juegos del Hambre"
-	var property votosPositivos=1600200
-	var property votosNegativos=300600
+	const votosPositivos=1600200
+	const votosNegativos=300600
 	
 	method valoracion(){
 		const coeficiente = votosPositivos-votosNegativos
@@ -73,7 +106,7 @@ object rayuela{
 object padreRicopadrePobre{
 	var property nombre = "Padre Rico, Padre Pobre"
 	const fechaSalida = new Date(day = 2, month=4, year=1997)
-	var property cantidadPaginas = 207
+	const cantidadPaginas = 207
 	
 	method valoracion(){
 		return cantidadPaginas/100 + self.cantidadDeAnios()/5

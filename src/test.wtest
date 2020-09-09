@@ -1,0 +1,27 @@
+import dominio.*
+
+
+
+test "Al leer un libro, se incrementa la cantidad de libros que leyó Nati" {
+	
+	nati.leerUnLibro(rayuela)
+	assert.equals(1, nati.cuantosLeiste())
+
+}
+
+//To do
+test "Si no leyó ningún libro, tiene que devolver 0 al preguntar cuantosLeiste" {
+	
+}
+
+test "Si leyó varios libros, tiene que recordar el primero que leyó"{
+	
+}
+
+test "Si leyó varios libros, tiene que incrementar bien la cantidad leída"{
+	
+}
+
+test "Si no leyó ningún libro, no puede decir cual fue el primer o último"{
+	
+}
