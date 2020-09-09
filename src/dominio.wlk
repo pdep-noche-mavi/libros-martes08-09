@@ -24,9 +24,18 @@ object nati{
 	
 	//valoracion >=10
 	method librosRecomendados(){
-		const bloque = {unLibro => unLibro.valoracion()>=10}
-		return biblioteca.filter(bloque)
+		return biblioteca.filter({unLibro => unLibro.valoracion()>=10})
 	}
+	
+	method olvidarLibro(unLibro){
+		biblioteca.remove(unLibro)
+	}
+	
+	method olvidarPrimero(){
+		biblioteca.remove(self.primerLeido())
+	}
+	
+	
 	
 	
 }
