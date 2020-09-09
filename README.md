@@ -17,10 +17,12 @@ De los libros se sabe:
 
 #### 2. Modelar a Martu, que conoce los libros que leyó.
 
-#### 3. Hacer que olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
+#### 3. Hacer que Nati olvide un libro.
 
-#### 4. Obtener el promedio de valoración de los libros que leyó.
+#### 4. Hacer que olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
 
-#### 5. Obtener el nombre del peor y mejor libro que leyó.
+#### 5. Obtener el promedio de valoración de los libros que leyó.
 
-#### 6. Obtener el nombre de algún libro leído por Martu que empiece con "El".
+#### 6. Obtener el nombre del peor y mejor libro que leyó.
+
+#### 7. Obtener el nombre de algún libro leído por Martu que empiece con "El".
