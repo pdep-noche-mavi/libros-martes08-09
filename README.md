@@ -25,4 +25,4 @@ De los libros se sabe:
 
 #### 6. Obtener el nombre del peor y mejor libro que leyó.
 
-#### 7. Obtener el nombre de algún libro leído por Martu que empiece con "El".
+#### 7. Obtener el nombre de algún libro leído por Nati que empiece con "El".
