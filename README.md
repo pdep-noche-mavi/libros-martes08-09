@@ -54,7 +54,7 @@ Recuerdan los libros de la semana pasada? Resulta que Nati se tomó la semana pa
 * Se quiere modelar a los libros de Harry Potter, que conocen su nombre, la cantidad de lectores y su valoración se calcula como sus lectores dividido _1000000_.
 
 ### Segunda parte
-Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSeller (Los juegos del hambre por ejemplo). Algunos ejemplos son El Señor de los Anillos, El Hobbit, El Principito... entre otros.
+Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSeller que son del estilo de Los Juegos del Hambre. Algunos ejemplos más son: El Señor de los Anillos, El Hobbit, El Principito, El león, la bruja y el armario... entre otros.
 
 * Modelar a los Libros BestSeller que como ya sabemos, tienen nombre, votos positivos y negativos y su valoración la calculan como la resta entre los votos positivos y negativos dividido __100000_. En caso de que este resultado sea negativo, su valoración es 0.
 
