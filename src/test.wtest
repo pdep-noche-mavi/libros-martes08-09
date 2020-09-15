@@ -1,5 +1,7 @@
 import dominio.*
 
+describe "test de libros"{
+	
 
 
 test "Al leer un libro, se incrementa la cantidad de libros que leyó Nati" {
@@ -25,3 +27,38 @@ test "Si leyó varios libros, tiene que incrementar bien la cantidad leída"{
 test "Si no leyó ningún libro, no puede decir cual fue el primer o último"{
 	
 }
+
+
+}
+
+describe "test de libros segunda parte"{
+	fixture{
+	nati.leerUnLibro(rayuela)
+	nati.leerUnLibro(harryPotter)
+	nati.leerUnLibro(seniorDeLosAnillos)
+	nati.leerUnLibro(elPrincipito)
+	nati.leerUnLibro(losJuegosDelHambre)
+	nati.leerUnLibro(venasAbiertasDeAmericaLatina)
+	nati.leerUnLibro(padreRicopadrePobre)
+	nati.leerUnLibro(laCabania)
+	}
+	
+	test "si uso el mensaje olvidarMalos, Nati olvida padreRicopadrePobre y laCabania, por lo que queda con 6 libros"
+	{
+		nati.olvidarMalos()
+		assert.equals(6, nati.cuantosLeiste())
+	}
+	
+	test "mejor libro devuelve el principito"{
+		assert.equals(elPrincipito, nati.mejorLibro())
+	}
+	
+	test "peor libro devuelve la cabania"{
+		assert.equals(laCabania,nati.peorLibro())
+	}
+	
+	test "empiezaConEl devuelve El señor de los anillos"{
+		assert.equals(seniorDeLosAnillos,nati.empiezaConEl())
+	}
+}
+

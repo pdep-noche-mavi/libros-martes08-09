@@ -1,7 +1,6 @@
 object nati{
 	
-	const biblioteca = [] //un set
-	
+	const biblioteca = [] 	
 	method leerUnLibro(unLibro){
 		biblioteca.add(unLibro)
 	}
@@ -15,7 +14,7 @@ object nati{
 	}
 	
 	method primerLeido(){
-		return biblioteca.first().nombre()
+		return biblioteca.first()
 	}
 	
 	method leeVariado(){
@@ -33,6 +32,31 @@ object nati{
 	
 	method olvidarPrimero(){
 		biblioteca.remove(self.primerLeido())
+	}
+	
+
+	
+// --- Parte 2 --- 
+
+	method olvidarMalos(){
+		biblioteca.removeAllSuchThat({unLibro => unLibro.valoracion()<=7})
+	}
+	
+	method promedioValoracion(){
+		return biblioteca.sum({unLibro => unLibro.valoracion()}) / self.cuantosLeiste()
+	}
+
+
+method mejorLibro(){
+		return biblioteca.max({unLibro => unLibro.valoracion()})
+	}
+	
+	method peorLibro(){
+		return biblioteca.min({unLibro => unLibro.valoracion()}) 
+	}
+	
+	method empiezaConEl(){
+		return biblioteca.find({unLibro => unLibro.nombre().take(2) == "El"})
 	}
 	
 	
