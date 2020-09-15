@@ -62,5 +62,6 @@ Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSell
 ### Tercera parte
 Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Algunos ayudantes también pueden sumarse, por lo que podemos clasificarlos a todos como Lectores.
 
-* Modelar a los lectores. 
+* Modelar a los lectores, de los cuales se conoce su nombre e interpretan todos los mensajes que conoce Nati.
 * Hay algunos objetos en nuestro dominio que ya no tienen que existir. ¿Cuáles? 
+* Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
