@@ -57,11 +57,10 @@ Recuerdan los libros de la semana pasada? Resulta que Nati se tomó la semana pa
 Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSeller que son del estilo de Los Juegos del Hambre. Algunos ejemplos más son: El Señor de los Anillos, El Hobbit, El Principito, El león, la bruja y el armario... entre otros.
 
 * Modelar a los Libros BestSeller que como ya sabemos, tienen nombre, votos positivos y negativos y su valoración la calculan como la resta entre los votos positivos y negativos dividido __100000_. En caso de que este resultado sea negativo, su valoración es 0.
-
+* Hay algunos objetos en nuestro dominio que ya no tienen que existir. ¿Cuáles? 
 
 ### Tercera parte
 Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Otros ayudantes también pueden sumarse a leer en las próximas semanas.
 
 * Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también.
-* Hay algunos objetos en nuestro dominio que ya no tienen que existir. ¿Cuáles? 
 * Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
