@@ -1,3 +1,5 @@
+# Corregir ambiguedades
+
 ## Libros!
 
 Nati estuvo leyendo mucho durante la cuarentena. Decidimos hacer una aplicación (obviamente en Wollok) para poder conocer un poco más sobre los libros que leyó, cada uno con su valoración (que se calcula de distintas maneras en cada caso).
@@ -63,4 +65,5 @@ Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSell
 Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Otros ayudantes también pueden sumarse a leer en las próximas semanas.
 
 * Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también.
+
 * Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
