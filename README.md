@@ -64,6 +64,6 @@ Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSell
 ### Tercera parte
 Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Otros ayudantes también pueden sumarse a leer en las próximas semanas.
 
-* Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también.
+* Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también. Deben entender los mismos mensajes que Nati **spoiler alert**.
 
 * Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
