@@ -67,4 +67,4 @@ Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de 
 * Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
 
 ## Diagrama de clases
-<img src"diagramaDeClasesLibros.png">
+<img src="diagramaDeClasesLibros.png">
