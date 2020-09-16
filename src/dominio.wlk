@@ -1,5 +1,5 @@
-object nati{
-	
+class Lector{
+	const nombre
 	const biblioteca = [] 	
 	method leerUnLibro(unLibro){
 		biblioteca.add(unLibro)
@@ -21,7 +21,7 @@ object nati{
 		return biblioteca.asSet().size() > 3
 	}
 	
-	//valoracion >=10
+	
 	method librosRecomendados(){
 		return biblioteca.filter({unLibro => unLibro.valoracion()>=10})
 	}
@@ -36,7 +36,7 @@ object nati{
 	
 
 	
-// --- Parte 2 --- 
+
 
 	method olvidarMalos(){
 		biblioteca.removeAllSuchThat({unLibro => unLibro.valoracion()<=7})
@@ -47,7 +47,7 @@ object nati{
 	}
 
 
-method mejorLibro(){
+	method mejorLibro(){
 		return biblioteca.max({unLibro => unLibro.valoracion()})
 	}
 	
@@ -58,55 +58,26 @@ method mejorLibro(){
 	method empiezaConEl(){
 		return biblioteca.find({unLibro => unLibro.nombre().take(2) == "El"})
 	}
-	
-	
-	
-	
 }
 
-object harryPotter{
-	var property nombre="Harry Potter - El Misterio del Principe Mestizo"
-	const cantidadLectores=10500156
+class HarryPotter{
+	const property nombre
+	var cantidadLectores
 	
 	method valoracion(){
 		return cantidadLectores/1000000
 	}
 }
 
-object seniorDeLosAnillos{
-	var property nombre="El Señor de los Anillos - Las dos Torres"
-	const cantidadPaginas=450
-	
-	method valoracion(){
-		return cantidadPaginas/45
-	}
-}
-
-object elPrincipito {
-	var property nombre="El Principito"
-	
-	method valoracion(){
-		return 15
-	}
-	
-	
-}
-
-object losJuegosDelHambre {
-	var property nombre="Los Juegos del Hambre"
-	const votosPositivos=1600200
-	const votosNegativos=300600
+class BestSeller {
+	var property nombre
+	const votosPositivos
+	const votosNegativos
 	
 	method valoracion(){
 		const coeficiente = votosPositivos-votosNegativos
 		
-		if(coeficiente<0){
-			return 0
-		}
-		else
-		{
-			return coeficiente/100000
-		}
+		return [0,coeficiente/100000].max()
 	}
 }
 
