@@ -38,7 +38,7 @@ De los libros se sabe:
 
 ### Actividades desafíos (tercera parte)
 
-10. Pedirle a Andy una cadena de caracteres con todos los nombres de los libros que leyó.
+10. Pedirle a Nati una cadena de caracteres con todos los nombres de los libros que leyó.
 
 11. Hacer que olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
 
@@ -57,10 +57,14 @@ Recuerdan los libros de la semana pasada? Resulta que Nati se tomó la semana pa
 Nati también leyó unos cuantos libros más a los que llamamos de tipo BestSeller que son del estilo de Los Juegos del Hambre. Algunos ejemplos más son: El Señor de los Anillos, El Hobbit, El Principito, El león, la bruja y el armario... entre otros.
 
 * Modelar a los Libros BestSeller que como ya sabemos, tienen nombre, votos positivos y negativos y su valoración la calculan como la resta entre los votos positivos y negativos dividido __100000_. En caso de que este resultado sea negativo, su valoración es 0.
-
+* Hay algunos objetos en nuestro dominio que ya no tienen que existir. ¿Cuáles? 
 
 ### Tercera parte
-Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Algunos ayudantes también pueden sumarse, por lo que podemos clasificarlos a todos como Lectores.
+Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de los que ella leyó. Martu dijo que tenía muchos Tps individuales para corregir, pero que en cualquier momento se sumaba a la lectura. Otros ayudantes también pueden sumarse a leer en las próximas semanas.
 
-* Modelar a los lectores. 
-* Hay algunos objetos en nuestro dominio que ya no tienen que existir. ¿Cuáles? 
+* Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también. Deben entender los mismos mensajes que Nati **spoiler alert**.
+
+* Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
+
+## Diagrama de clases
+<img src="diagramaDeClasesLibros.png">
