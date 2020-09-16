@@ -65,3 +65,6 @@ Nati le recomendó a Brian algunos libros y lo terminó convenciendo de leer de 
 * Modelar la posibilidad de que Brian y el resto de ayudantes puedan leer también. Deben entender los mismos mensajes que Nati **spoiler alert**.
 
 * Algunos objetos quedaron, ¿qué tienen en común con las clases agregadas?
+
+## Diagrama de clases
+<img src"diagramaDeClasesLibros.png">
