@@ -1,5 +1,3 @@
-# Corregir ambiguedades
-
 ## Libros!
 
 Nati estuvo leyendo mucho durante la cuarentena. Decidimos hacer una aplicación (obviamente en Wollok) para poder conocer un poco más sobre los libros que leyó, cada uno con su valoración (que se calcula de distintas maneras en cada caso).
