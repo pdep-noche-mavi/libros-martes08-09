@@ -38,7 +38,7 @@ De los libros se sabe:
 
 ### Actividades desafíos (tercera parte)
 
-10. Pedirle a Andy una cadena de caracteres con todos los nombres de los libros que leyó.
+10. Pedirle a Nati una cadena de caracteres con todos los nombres de los libros que leyó.
 
 11. Hacer que olvide todos los libros malos que leyó: los que tienen 7 punto o menos de valoración.
 
